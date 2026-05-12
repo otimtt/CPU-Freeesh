@@ -2,6 +2,11 @@
 
 **Game Performance Optimizer for Windows**
 
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)
+
 CPU Freeesh squeezes every last drop of performance from your PC before you launch a game — and puts everything back exactly as it was when you're done.
 
 ---
@@ -35,7 +40,7 @@ CPU Freeesh squeezes every last drop of performance from your PC before you laun
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/CPU-Freeesh.git
+git clone https://github.com/otimtt/CPU-Freeesh.git
 cd CPU-Freeesh
 
 # 2. Install dependency
