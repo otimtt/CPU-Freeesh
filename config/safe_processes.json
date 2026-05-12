@@ -1,0 +1,18 @@
+{
+  "_comment": "Processes that CPU Freeesh will NEVER kill or lower in priority.",
+  "critical": [
+    "system", "idle", "registry",
+    "smss.exe", "csrss.exe", "wininit.exe", "winlogon.exe",
+    "services.exe", "lsass.exe", "spoolsv.exe",
+    "svchost.exe", "fontdrvhost.exe", "dwm.exe",
+    "conhost.exe", "taskhostw.exe", "sihost.exe",
+    "ctfmon.exe", "audiodg.exe", "runtimebroker.exe",
+    "securityhealthsyshost.exe", "securityhealthservice.exe",
+    "msmpeng.exe", "nissrv.exe", "msseces.exe",
+    "antimalware service executable",
+    "cpu_freeesh.exe", "cpu_freeesh.py",
+    "python.exe", "pythonw.exe",
+    "explorer.exe",
+    "taskmgr.exe", "regedit.exe"
+  ]
+}

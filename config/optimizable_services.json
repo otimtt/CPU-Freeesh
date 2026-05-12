@@ -1,0 +1,47 @@
+{
+  "_comment": "Services that can safely be paused during a gaming session.",
+  "services": [
+    {
+      "name": "SysMain",
+      "display": "Superfetch / SysMain",
+      "reason": "Preloads apps into RAM — wastes memory while gaming.",
+      "risk": "low"
+    },
+    {
+      "name": "WSearch",
+      "display": "Windows Search Indexer",
+      "reason": "Causes high disk I/O during indexing.",
+      "risk": "low"
+    },
+    {
+      "name": "DiagTrack",
+      "display": "Telemetry & Diagnostics",
+      "reason": "Sends usage data to Microsoft — uses CPU/network in background.",
+      "risk": "low"
+    },
+    {
+      "name": "XblGameSave",
+      "display": "Xbox Game Save",
+      "reason": "Cloud sync of game saves — unnecessary network usage.",
+      "risk": "low"
+    },
+    {
+      "name": "MapsBroker",
+      "display": "Downloaded Maps Manager",
+      "reason": "Manages offline maps — no gaming relevance.",
+      "risk": "low"
+    },
+    {
+      "name": "RemoteRegistry",
+      "display": "Remote Registry",
+      "reason": "Allows remote registry access — security benefit to stopping it.",
+      "risk": "low"
+    },
+    {
+      "name": "PrintNotify",
+      "display": "Printer Extensions & Notifications",
+      "reason": "Printer notifications — unneeded during gaming.",
+      "risk": "low"
+    }
+  ]
+}

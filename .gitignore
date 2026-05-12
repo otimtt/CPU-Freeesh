@@ -1,0 +1,28 @@
+# Build output
+dist/
+build/
+*.spec
+
+# Runtime files
+cpu_freeesh.log
+cpu_freeesh_backup.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
